@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
 # Data load karo
-dataset = pd.read_csv("D:/diabetes.csv")
+dataset = pd.read_csv("diabetes.csv")
 
 X = dataset.drop(['Outcome'], axis=1)
 y = dataset['Outcome']
